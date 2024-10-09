@@ -17,3 +17,10 @@ path = [
 ]
 SPDX-FileCopyrightText = '2021 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>'
 SPDX-License-Identifier = 'CC-BY-SA-4.0+'
+
+[[annotations]]
+path = [
+    "Gemfile.lock"
+]
+SPDX-FileCopyrightText = "1970 Computer-generated data, no copyright"
+SPDX-License-Identifier = "CC0-1.0"
