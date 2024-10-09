@@ -1,3 +1,3 @@
 # assets
 
-Static assets that will be referenced by the web pages.
+Assets that will be referenced by the web pages.
