@@ -44,3 +44,7 @@ no-inline-html: False
 # `title` property
 first-line-h1:
   front_matter_title: '.*'
+
+single-title:
+  # Workaround for the layouts step
+  front_matter_title: ''
