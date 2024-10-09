@@ -9,6 +9,8 @@ Lab project for Jekyll's step by step tutorial.
 
 The following material are referenced during the development of this project:
 
+* [Step by Step Tutorial | Jekyll • Simple, blog-aware, static sites](https://jekyllrb.com/docs/step-by-step/)  
+  The tutorial this lab project is following.
 * [ports | Services top-level elements | Docker Docs](https://docs.docker.com/reference/compose-file/services/#ports)  
   For the Docker Compose syntax of exposing the service in the container to the host.
 
