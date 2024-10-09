@@ -64,7 +64,6 @@
 
 # Don't track common export formats from Markdown
 *.doc?
-*.htm?
 *.pdf
 
 # Don't track common program output logs
