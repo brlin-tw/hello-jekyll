@@ -34,3 +34,13 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+
+exclude:
+  - continuous-integration/
+  - docker-compose.yaml
+  - .github/
+  - LICENSES/
+  - README.md
+  - '**/README.md'
+  - REUSE.toml
+  - '**/REUSE.toml'
