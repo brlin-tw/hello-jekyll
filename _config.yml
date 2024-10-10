@@ -1,0 +1,31 @@
+# Jekyll configuration file
+#
+# References:
+#
+# * Configuration | Jekyll • Simple, blog-aware, static sites
+#   https://jekyllrb.com/docs/configuration/
+#
+# Copyright 2024 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+collections:
+  authors:
+    output: true
+
+# Front matter defaults
+# https://jekyllrb.com/docs/configuration/front-matter-defaults/
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
