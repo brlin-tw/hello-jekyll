@@ -79,7 +79,7 @@ test-pages:
     paths:
       - test
 
-deploy-pages:
+pages:
   stage: deploy
   image: ruby:latest
   rules:
