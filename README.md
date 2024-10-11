@@ -21,6 +21,10 @@ The following material are referenced during the development of this project:
   Explains the usage of the glob matching patterns used in Jekyll's `exclude` configuration option.
 * [Jekyll’s site.url and baseurl - Made Mistakes](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)  
   Explains the usage of the `url` and `baseurl` Jekyll site configuration options.
+* [HTML Favicon](https://www.w3schools.com/html/html_favicon.asp)  
+  Explains how to add a favicon to a webpage.
+* [favicon.ico Generator](https://www.favicon.cc/)  
+  Provides a user-friendly interface to create favicons.
 
 ## Licensing
 
