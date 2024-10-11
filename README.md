@@ -17,6 +17,8 @@ The following material are referenced during the development of this project:
   Explains the glob matching implementation in Jekyll's `exclude` configuration option.
 * [fnmatch?( pattern, path, \[flags\] ) → (true or false) | Class: File (Ruby 2.5.5)](https://ruby-doc.org/core-2.5.5/File.html#method-c-fnmatch-3F)  
   Explains the usage of the glob matching patterns used in Jekyll's `exclude` configuration option.
+* [Jekyll’s site.url and baseurl - Made Mistakes](https://mademistakes.com/mastering-jekyll/site-url-baseurl/)  
+  Explains the usage of the `url` and `baseurl` Jekyll site configuration options.
 
 ## Licensing
 
