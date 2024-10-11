@@ -70,6 +70,9 @@ test-pages:
   image: ruby:latest
   variables:
     LC_ALL: C.UTF-8
+  before_script:
+    - gem install bundler
+    - bundle install
   script:
     - bundle exec jekyll build -d test
   artifacts:
@@ -86,6 +89,9 @@ deploy-pages:
   variables:
     JEKYLL_ENV: production
     LC_ALL: C.UTF-8
+  before_script:
+    - gem install bundler
+    - bundle install
   script:
     - bundle exec jekyll build -d public
   artifacts:
