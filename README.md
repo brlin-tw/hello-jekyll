@@ -13,6 +13,10 @@ The following material are referenced during the development of this project:
   The tutorial this lab project is following.
 * [ports | Services top-level elements | Docker Docs](https://docs.docker.com/reference/compose-file/services/#ports)  
   For the Docker Compose syntax of exposing the service in the container to the host.
+* [add glob support to include,exclude option by mccxj · Pull Request #743 · jekyll/jekyll](https://github.com/jekyll/jekyll/pull/743)  
+  Explains the glob matching implementation in Jekyll's `exclude` configuration option.
+* [fnmatch?( pattern, path, \[flags\] ) → (true or false) | Class: File (Ruby 2.5.5)](https://ruby-doc.org/core-2.5.5/File.html#method-c-fnmatch-3F)  
+  Explains the usage of the glob matching patterns used in Jekyll's `exclude` configuration option.
 
 ## Licensing
 
