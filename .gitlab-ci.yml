@@ -64,3 +64,30 @@ create-release:
     - apk add bash git
     - ./continuous-integration/generate-release-description.sh
     - ./continuous-integration/create-gitlab-release.sh
+
+test-pages:
+  stage: test
+  image: ruby:latest
+  variables:
+    LC_ALL: C.UTF-8
+  script:
+    - bundle exec jekyll build -d test
+  artifacts:
+    paths:
+      - test
+
+deploy-pages:
+  stage: deploy
+  image: ruby:latest
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  needs:
+    - test-pages
+  variables:
+    JEKYLL_ENV: production
+    LC_ALL: C.UTF-8
+  script:
+    - bundle exec jekyll build -d public
+  artifacts:
+    paths:
+      - public
